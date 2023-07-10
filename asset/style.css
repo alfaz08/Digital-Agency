@@ -147,3 +147,39 @@ ol{
   align-items: center;
   color: white;
 }
+.blog-title{
+  color: black;
+  text-align: center;
+  margin: 15px;
+}
+.text-title{
+  text-align: center;
+  margin-top: -10px;
+  font-size: larger;
+}
+.card{
+  width: 220px;
+ 
+  /*background-color: yellowgreen;*/
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 5px;
+}
+.blog-container{
+  width: 80%;
+  margin: auto;
+  background-color: gray;
+  padding: 10px;
+}
+.blog-img{
+  width: 100%;
+
+}
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
