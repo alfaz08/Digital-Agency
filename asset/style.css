@@ -62,6 +62,10 @@
 }
 .service-container{
   height: 100vh;
+  /*linear gradient use korte chaile ar por gradient-blend-mode overlay kore dite hobe
+  height 100vh mane puro jaiga jure nibe
+  background cover mane backgroud jototuku e hok puro jaiga jure nibe
+  */
   background-image: url("./image/footer-bg.png"),linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0,0.9));
 
   background-blend-mode: overlay;
@@ -107,7 +111,7 @@
 .author-container{
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: center;/*duita osoman jinis ke soman kore newar jonno*/
 }
 .profile-container{
   display: flex;
@@ -125,4 +129,21 @@ ol{
   border-radius: 20px;
   padding: 15px;
   font-size: large;
+}
+.phone-call{
+  display: flex;
+  align-items: center;
+  gap: 10px;;
+}
+.appointment-container{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;/*width ar por margin auto dile dui pas theke oto percent chere majhe chole asbe*/
+  padding: 20px;
+  background-color: rgb(204, 71, 71);
+  border-radius: 10px;
+  margin-top: -25px;
+  align-items: center;
+  color: white;
 }
